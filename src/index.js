@@ -1,3 +1,3 @@
-module.exports = function reverse(/* n */) {
-  throw new Error('Not implemented');
+module.exports = function reverse(num) {
+  return Math.abs(num).toString().split('').reverse().join('');
 };
